@@ -3,3 +3,132 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header, footer {
+    background-color: #444;
+    padding: 1rem;
+    color: #fdfdfd;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  header a {
+    color: #fdfdfd;
+    text-decoration: none;
+  }
+  
+  /* #menu {
+    display: flex;
+  } */
+  
+  .menu-flex-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header a:hover {
+    color: salmon;
+  }
+  
+  #logo {
+    font-size: 2rem;
+  }
+  
+  main {
+    margin: 4rem auto;
+    max-width: 25rem;
+    padding: 1rem;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  p {
+    margin: 2rem 0;
+    line-height: 1.8;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+  /* MENU STUFF */
+  
+  
+  @media (max-width: 40rem) {
+    
+    #menu-toggle {
+      display: flex;
+      flex-direction: column;
+      gap: .25rem;
+      background-color: lightblue;
+      padding: .25rem;
+      position: relative;
+      z-index: 999;
+    }
+    
+    #menu {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      background-color: #33dd3388;
+    }
+    
+    .menu-flex-wrapper {
+      flex-direction: column;
+      gap: 0;
+      height: 100%;
+      justify-content: space-between;
+    }
+    
+    #menu a {
+      background-color: lightblue;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 3px solid red;
+    }
+    
+    #menu a:last-child {
+      border-bottom: 3px solid red;
+    }
+    
+    #menu a:hover {
+      background-color: violet;
+    }
+    
+    .patty {
+      background-color: #fdfdfd;
+      width: 2rem;
+      height: .25rem;
+    }
+    
+    #menu-toggle:hover .patty {
+      background-color: salmon;
+    }  
+  }

@@ -135,4 +135,19 @@ body {
 
   /* Main stuff */
 
+  .homepage{
+    width: 100%;
+    height: 100%;
+
+    /* position: fixed; */
+
+  }
+
+  .homepage-text{
+    background-image: url(/photos/main.jpeg);
+    width: 100%;
+    height: 100%;
+  }
+
+
   

@@ -51,7 +51,7 @@ body {
     font-size: 2rem;
   }
   
-  main {
+  main, img {
     margin: 4rem auto;
     max-width: 25rem;
     padding: 1rem;
@@ -138,7 +138,7 @@ body {
   .hero{
     min-height: 100vh;
     
-    background-image: url(/photos/main.jpeg);
+    background-image: url(photos/main.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -150,10 +150,53 @@ body {
     padding: 5rem;
     width: 100%;
     height: 100%;
+
+    text-align: right;
+    padding-top: 50%;
+
   }
 
   h1{
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  p{
+    font-size: .75rem;
   }
 
+
+  .section-two{
+    max-width: 50rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* display: grid;
+    grid-template-rows: 600px 600px; */
+  }
+
+  .three, .two, .one{
+    display: inline-block;
+    max-width: 15rem;
+    width: 30vw;
+    min-width: 8rem;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+.three-caption, .two-caption, .one-caption{
+  color: black;
+  margin-top: 1em;
+}
+
+  img{
+    width: 100%;
+    display: block;
+  }
+
+  .two:hover, .three:hover, .one:hover {
+    opacity: .5;
+    background-color: rgb(117, 117, 141);
+  }
   

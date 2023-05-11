@@ -165,15 +165,45 @@ body {
     font-size: .75rem;
   }
 
-  /* .section-one{
-    display: flex;
-    align-items: center;
-
-    height: auto;
-    max-width: 50%;  
-  } */
-  .section-one img{
-    
+  .section-one-one img, .section-one-three img{
+    width: 300px;
+    float: left;
+  }
+  .section-one-one h2, .section-one-three h2{
+    width: 300px;
+  }
+  .section-one-one p, .section-one-three p{
+    width: 300px;
+  }
+  .section-one-two img{
+    width: 300px;
+    float: right;
+  }
+  
+  .centerimg1 {
+    width: 70%;
+    left: 15%;
+    padding: 30px;
+  }
+  .img2{
+    width:300px;
+    float:left;
+  }
+  
+  .centerimg2 {
+    width: 70%;
+    left: 15%;
+    padding: 30px;
+  }
+  
+  .img3{
+    width: 300px;
+    float: right;
+  }
+  .centerimg3 {
+    width: 70%;
+    left: 15%;
+    padding: 30px;
   }
 
   /* .section-one-one, .section-one-two, .section-one-three{

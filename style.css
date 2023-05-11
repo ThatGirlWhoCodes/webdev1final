@@ -165,6 +165,20 @@ body {
     font-size: .75rem;
   }
 
+  /* .section-one{
+    display: flex;
+    align-items: center;
+
+    height: auto;
+    max-width: 50%;  
+  } */
+  .section-one img{
+    
+  }
+
+  /* .section-one-one, .section-one-two, .section-one-three{
+
+  } */
 
   .section-two{
     max-width: 50rem;
@@ -172,7 +186,7 @@ body {
 
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: center;
     /* display: grid;
     grid-template-rows: 600px 600px; */
   }
@@ -194,7 +208,7 @@ body {
 
   img{
     width: 100%;
-    display: block;
+    display: flex;
     align-items: center;
   }
 

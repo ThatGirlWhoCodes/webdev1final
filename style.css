@@ -179,12 +179,12 @@ body {
 
   .three, .two, .one{
     display: inline-block;
-    max-width: 15rem;
-    width: 30vw;
-    min-width: 8rem;
+    max-width: 10rem;
+    /* width: 30vw; */
+    min-width: 10rem;
     text-decoration: none;
-    padding: 1rem;
-    margin: 1rem;
+    padding: .25rem;
+    margin: .5rem;
   }
   
 .three-caption, .two-caption, .one-caption{
@@ -195,9 +195,13 @@ body {
   img{
     width: 100%;
     display: block;
+    align-items: center;
   }
 
-  /* .two:hover, .three:hover, .one:hover {
-    opacity: .5;
-  } */
+  .two:hover, .three:hover, .one:hover {
+    background-color: white;
+    border: solid grey;
+
+    transform: scale(1.25);
+  }
   

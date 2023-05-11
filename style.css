@@ -80,7 +80,6 @@ body {
       display: flex;
       flex-direction: column;
       gap: .25rem;
-      background-color: lightblue;
       padding: .25rem;
       position: relative;
       z-index: 999;
@@ -198,8 +197,7 @@ body {
     display: block;
   }
 
-  .two:hover, .three:hover, .one:hover {
+  /* .two:hover, .three:hover, .one:hover {
     opacity: .5;
-    background-color: rgb(117, 117, 141);
-  }
+  } */
   

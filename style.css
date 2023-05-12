@@ -145,7 +145,6 @@ body {
 
     text-align: right;
     padding-top: 50%;
-
   }
 
   h1{
@@ -215,3 +214,6 @@ body {
     max-width: 10rem;
     min-width: .25rem;
   }
+.copy-footer{
+  padding: 2rem;
+}

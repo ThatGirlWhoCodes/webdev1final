@@ -13,5 +13,3 @@ $('#menu-toggle').click(function(){
       $('#menu').hide();
     }
   })
-
-//   main section

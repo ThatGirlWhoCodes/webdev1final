@@ -9,7 +9,7 @@ body {
     color: #333;
   }
   
-  header, footer {
+  header {
     background-color: #444;
     padding: 1rem;
     color: #fdfdfd;
@@ -165,57 +165,27 @@ body {
     font-size: .75rem;
   }
 
-  .section-one-one img, .section-one-three img{
-    width: 300px;
-    float: left;
-  }
-  .section-one-one h2, .section-one-three h2{
-    width: 300px;
-  }
-  .section-one-one p, .section-one-three p{
-    width: 300px;
-  }
-  .section-one-two img{
-    width: 300px;
-    float: right;
-  }
-  
-  .centerimg1 {
-    width: 70%;
-    left: 15%;
-    padding: 30px;
-  }
-  .img2{
-    width:300px;
-    float:left;
-  }
-  
-  .centerimg2 {
-    width: 70%;
-    left: 15%;
-    padding: 30px;
-  }
-  
-  .img3{
-    width: 300px;
-    float: right;
-  }
-  .centerimg3 {
-    width: 70%;
-    left: 15%;
-    padding: 30px;
+  .section-one{
+    
+    display: block;
+
   }
 
+  .section-one-one img, .section-one-three img{
+    width: 70%;
+    float: left;
+  }
+  .section-one-two img{
+    float: right;
+    width: 70%;  }
   /* .section-one-one, .section-one-two, .section-one-three{
 
   } */
 
-  .section-two{
-    max-width: 50rem;
-    margin: 0 auto;
 
+  .section-two{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     /* display: grid;
     grid-template-rows: 600px 600px; */
@@ -248,4 +218,15 @@ body {
 
     transform: scale(1.25);
   }
-  
+
+  footer {
+    background-color: #444;
+    padding: .25rem;
+    /* margin: 0; */
+    color: #fdfdfd;
+  }
+  .instagram, .twitter, .linkedin{
+    display: inline-block;
+    max-width: 10rem;
+    min-width: .25rem;
+  }
